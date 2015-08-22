@@ -4,25 +4,37 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>CoolFormat 源代码格式化工具 | 无幻</title>
+    <title>Wiz.Editor.md 为知笔记 Markdown 插件 | 无幻</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="无幻">
     
 
     
-    <meta name="description" content="CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。">
+    <meta name="description" content="Wiz.Editor.md 是一个基于 Editor.md 构建的为知笔记 Markdown 插件。
+主要特性
+支持通用 Markdown / CommonMark 和 GFM (GitHub Flavored Markdown) 风格的语法；
+支持实时预览、图片上传、预格式文本/代码/表格插入、代码折叠、跳转到行、搜索替换、只读模式、自定义样式主题和多语言语法高亮等功能；
+支持 ToC（Tabl">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CoolFormat 源代码格式化工具">
-<meta property="og:url" content="http://akof1314.github.io/2015/08/18/coolformat/index.html">
+<meta property="og:title" content="Wiz.Editor.md 为知笔记 Markdown 插件">
+<meta property="og:url" content="http://akof1314.github.io/2015/08/22/wizeditormd/index.html">
 <meta property="og:site_name" content="无幻">
-<meta property="og:description" content="CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。">
-<meta property="og:image" content="http://img.bbs.csdn.net/upload/201508/22/1440222873_690990.png">
-<meta property="og:image" content="http://img.my.csdn.net/uploads/201209/29/1348930578_2926.png">
-<meta property="og:updated_time" content="2015-08-22T05:56:36.800Z">
+<meta property="og:description" content="Wiz.Editor.md 是一个基于 Editor.md 构建的为知笔记 Markdown 插件。
+主要特性
+支持通用 Markdown / CommonMark 和 GFM (GitHub Flavored Markdown) 风格的语法；
+支持实时预览、图片上传、预格式文本/代码/表格插入、代码折叠、跳转到行、搜索替换、只读模式、自定义样式主题和多语言语法高亮等功能；
+支持 ToC（Tabl">
+<meta property="og:image" content="https://raw.githubusercontent.com/akof1314/Wiz.Editor.md/master/logo.png">
+<meta property="og:image" content="http://img.blog.csdn.net/20150417212918086">
+<meta property="og:updated_time" content="2015-08-22T05:45:56.296Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CoolFormat 源代码格式化工具">
-<meta name="twitter:description" content="CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。">
+<meta name="twitter:title" content="Wiz.Editor.md 为知笔记 Markdown 插件">
+<meta name="twitter:description" content="Wiz.Editor.md 是一个基于 Editor.md 构建的为知笔记 Markdown 插件。
+主要特性
+支持通用 Markdown / CommonMark 和 GFM (GitHub Flavored Markdown) 风格的语法；
+支持实时预览、图片上传、预格式文本/代码/表格插入、代码折叠、跳转到行、搜索替换、只读模式、自定义样式主题和多语言语法高亮等功能；
+支持 ToC（Tabl">
 
     
     <link rel="alternative" href="/atom.xml" title="无幻" type="application/atom+xml">
@@ -77,14 +89,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/08/18/coolformat/" title="CoolFormat 源代码格式化工具" itemprop="url">CoolFormat 源代码格式化工具</a>
+      <a href="/2015/08/22/wizeditormd/" title="Wiz.Editor.md 为知笔记 Markdown 插件" itemprop="url">Wiz.Editor.md 为知笔记 Markdown 插件</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="无幻" target="_blank" itemprop="author">无幻</a>
 		
   <p class="article-time">
-    <time datetime="2015-08-18T09:20:30.000Z" itemprop="datePublished"> 发表于 2015-08-18</time>
+    <time datetime="2015-08-22T04:20:30.000Z" itemprop="datePublished"> 发表于 2015-08-22</time>
     
   </p>
 </header>
@@ -93,27 +105,29 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用介绍"><span class="toc-number">1.</span> <span class="toc-text">使用介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用手册"><span class="toc-number">2.</span> <span class="toc-text">使用手册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#软件下载"><span class="toc-number">3.</span> <span class="toc-text">软件下载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#项目地址"><span class="toc-number">4.</span> <span class="toc-text">项目地址</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#主要特性"><span class="toc-number">1.</span> <span class="toc-text">主要特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#下载和安装"><span class="toc-number">2.</span> <span class="toc-text">下载和安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用方法"><span class="toc-number">3.</span> <span class="toc-text">使用方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置方法"><span class="toc-number">4.</span> <span class="toc-text">配置方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更新日志"><span class="toc-number">5.</span> <span class="toc-text">更新日志</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#截图"><span class="toc-number">6.</span> <span class="toc-text">截图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#项目地址"><span class="toc-number">7.</span> <span class="toc-text">项目地址</span></a></li></ol>
 		
 		</div>
 		
-		<p><img src="http://img.bbs.csdn.net/upload/201508/22/1440222873_690990.png" class="img-topic"></p>
-<p>CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。</p>
-<a id="more"></a>
-<p><img src="http://img.my.csdn.net/uploads/201209/29/1348930578_2926.png" alt="CoolFormat"></p>
-<h3 id="使用介绍">使用介绍</h3><ol>
-<li>全新Ribbon界面，操作方便           </li>
-<li>支持全部、部分、批量格式化方式     </li>
-<li>可自定义的代码格式化风格     </li>
-<li>支持代码高亮到网页、博客</li>
-</ol>
-<h3 id="使用手册">使用手册</h3><p>请移步这里：《<a href="http://blog.csdn.net/akof1314/article/details/8029438" target="_blank" rel="external">CoolFormat源代码格式化工具使用手册</a>》</p>
-<h3 id="软件下载">软件下载</h3><ul>
-<li>下载地址一：<a href="http://www.onlinedown.net/soft/100874.htm" target="_blank" rel="external">http://www.onlinedown.net/soft/100874.htm</a>     </li>
-<li>下载地址二：<a href="http://files.cnblogs.com/wjs16/CoolFormat3.4.rar" target="_blank" rel="external">http://files.cnblogs.com/wjs16/CoolFormat3.4.rar</a>      </li>
-<li>下载地址三：<a href="http://download.csdn.net/detail/akof1314/8457593" target="_blank" rel="external">http://download.csdn.net/detail/akof1314/8457593</a></li>
+		<p><img src="https://raw.githubusercontent.com/akof1314/Wiz.Editor.md/master/logo.png" class="img-topic"></p>
+<p><strong>Wiz.Editor.md</strong> 是一个基于 <a href="https://github.com/pandao/editor.md" target="_blank" rel="external">Editor.md</a> 构建的为知笔记 Markdown 插件。</p>
+<h3 id="主要特性">主要特性</h3><ul>
+<li>支持通用 Markdown / CommonMark 和 GFM (GitHub Flavored Markdown) 风格的语法；</li>
+<li>支持实时预览、图片上传、预格式文本/代码/表格插入、代码折叠、跳转到行、搜索替换、只读模式、自定义样式主题和多语言语法高亮等功能；</li>
+<li>支持 <a href="https://pandao.github.io/editor.md/examples/toc.html" target="_blank" rel="external">ToC（Table of Contents）</a>、<a href="https://pandao.github.io/editor.md/examples/emoji.html" target="_blank" rel="external">Emoji表情</a>、<a href="https://pandao.github.io/editor.md/examples/task-lists.html" target="_blank" rel="external">Task lists</a>、<a href="https://pandao.github.io/editor.md/examples/@links.html" target="_blank" rel="external">@链接</a>等 Markdown 扩展语法；</li>
+<li>支持 TeX 科学公式（基于 <a href="https://pandao.github.io/editor.md/examples/katex.html" target="_blank" rel="external">KaTeX</a>）、流程图 <a href="https://pandao.github.io/editor.md/examples/flowchart.html" target="_blank" rel="external">Flowchart</a> 和 <a href="https://pandao.github.io/editor.md/examples/sequence-diagram.html" target="_blank" rel="external">时序图 Sequence Diagram</a>;</li>
+<li>支持<a href="https://pandao.github.io/editor.md/examples/html-tags-decode.html" target="_blank" rel="external">识别和解析 HTML 标签，并且支持自定义过滤标签及属性解析</a>，具有可靠的安全性和几乎无限的扩展性；</li>
 </ul>
-<h3 id="项目地址">项目地址</h3><p>GitHub：<a href="https://github.com/akof1314/CoolFormat" target="_blank" rel="external">https://github.com/akof1314/CoolFormat</a><br>BUG及建议提交：<a href="https://github.com/akof1314/CoolFormat/issues" target="_blank" rel="external">https://github.com/akof1314/CoolFormat/issues</a></p>
+<a id="more"></a>
+<h3 id="下载和安装">下载和安装</h3><ul>
+<li>通过 <a href="https://github.com/akof1314/Wiz.Editor.md/releases" target="_blank" rel="external">Github下载安装</a>；</li>
+<li>或到<a href="http://app.wiz.cn/" title="为知笔记应用中心" target="_blank" rel="external">为知笔记应用中心</a>进行下载插件包，双击即可安装；</li>
+</ul>
+<h3 id="使用方法">使用方法</h3><p>新建<code>.md</code>笔记，选择<code>Editor.md</code>编辑器编辑。</p>
+<h3 id="配置方法">配置方法</h3><p>打开<code>md_editor_core.js</code>文件，修改功能配置项。保存，重新启动为知笔记。</p>
+<h3 id="更新日志">更新日志</h3><p><a href="https://github.com/akof1314/Wiz.Editor.md/blob/master/CHANGE.md" target="_blank" rel="external">Change logs</a></p>
+<h3 id="截图">截图</h3><p><img src="http://img.blog.csdn.net/20150417212918086" alt=""></p>
+<h3 id="项目地址">项目地址</h3><p>GitHub：<a href="https://github.com/akof1314/Wiz.Editor.md" target="_blank" rel="external">https://github.com/akof1314/Wiz.Editor.md</a><br>BUG及建议提交：<a href="https://github.com/akof1314/Wiz.Editor.md/issues" target="_blank" rel="external">https://github.com/akof1314/Wiz.Editor.md/issues</a></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -121,13 +135,13 @@
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/软件工具/">软件工具</a>
+  <a class="article-category-link" href="/categories/软件插件/">软件插件</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/工具/">工具</a><a href="/tags/软件/">软件</a>
+  <span></span> <a href="/tags/插件/">插件</a><a href="/tags/软件/">软件</a>
   </div>
 
 </div>
@@ -136,7 +150,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://akof1314.github.io/2015/08/18/coolformat/" data-title="CoolFormat 源代码格式化工具 | 无幻" data-tsina="null" class="share clearfix">
+	  <div data-url="http://akof1314.github.io/2015/08/22/wizeditormd/" data-title="Wiz.Editor.md 为知笔记 Markdown 插件 | 无幻" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -150,19 +164,27 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2015/08/22/wizeditormd/" title="Wiz.Editor.md 为知笔记 Markdown 插件">
+ <a href="/2015/08/22/crossgame/" title="十字消除 Cocos2d-x">
   <strong>上一篇：</strong><br/>
   <span>
-  Wiz.Editor.md 为知笔记 Markdown 插件</span>
+  十字消除 Cocos2d-x</span>
 </a>
 </div>
 
+
+<div class="next">
+<a href="/2015/08/18/coolformat/"  title="CoolFormat 源代码格式化工具">
+ <strong>下一篇：</strong><br/> 
+ <span>CoolFormat 源代码格式化工具
+</span>
+</a>
+</div>
 
 </nav>
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/08/18/coolformat/" data-title="CoolFormat 源代码格式化工具" data-url="http://akof1314.github.io/2015/08/18/coolformat/"></div>
+	<div class="ds-thread" data-thread-key="2015/08/22/wizeditormd/" data-title="Wiz.Editor.md 为知笔记 Markdown 插件" data-url="http://akof1314.github.io/2015/08/22/wizeditormd/"></div>
 </section>
 
 
@@ -172,7 +194,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用介绍"><span class="toc-number">1.</span> <span class="toc-text">使用介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用手册"><span class="toc-number">2.</span> <span class="toc-text">使用手册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#软件下载"><span class="toc-number">3.</span> <span class="toc-text">软件下载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#项目地址"><span class="toc-number">4.</span> <span class="toc-text">项目地址</span></a></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#主要特性"><span class="toc-number">1.</span> <span class="toc-text">主要特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#下载和安装"><span class="toc-number">2.</span> <span class="toc-text">下载和安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用方法"><span class="toc-number">3.</span> <span class="toc-text">使用方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置方法"><span class="toc-number">4.</span> <span class="toc-text">配置方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更新日志"><span class="toc-number">5.</span> <span class="toc-text">更新日志</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#截图"><span class="toc-number">6.</span> <span class="toc-text">截图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#项目地址"><span class="toc-number">7.</span> <span class="toc-text">项目地址</span></a></li></ol>
  
   </div>
 

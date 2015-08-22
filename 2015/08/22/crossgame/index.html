@@ -4,25 +4,24 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>CoolFormat 源代码格式化工具 | 无幻</title>
+    <title>十字消除 Cocos2d-x | 无幻</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="无幻">
     
 
     
-    <meta name="description" content="CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。">
+    <meta name="description" content="鼠标点击链接两个或多个颜色相同方块的十字线的中心，便能成功消除方块。素材取自网上的Flash游戏，逻辑及算法自己实现，第一次写游戏，写的会比较粗糙，使用的Cocos2d-x版本为2.0.1，不同的版本可能会编译不了，需要进行一些稍微的改动，压缩包已经包含了运行文件。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CoolFormat 源代码格式化工具">
-<meta property="og:url" content="http://akof1314.github.io/2015/08/18/coolformat/index.html">
+<meta property="og:title" content="十字消除 Cocos2d-x">
+<meta property="og:url" content="http://akof1314.github.io/2015/08/22/crossgame/index.html">
 <meta property="og:site_name" content="无幻">
-<meta property="og:description" content="CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。">
-<meta property="og:image" content="http://img.bbs.csdn.net/upload/201508/22/1440222873_690990.png">
-<meta property="og:image" content="http://img.my.csdn.net/uploads/201209/29/1348930578_2926.png">
-<meta property="og:updated_time" content="2015-08-22T05:56:36.800Z">
+<meta property="og:description" content="鼠标点击链接两个或多个颜色相同方块的十字线的中心，便能成功消除方块。素材取自网上的Flash游戏，逻辑及算法自己实现，第一次写游戏，写的会比较粗糙，使用的Cocos2d-x版本为2.0.1，不同的版本可能会编译不了，需要进行一些稍微的改动，压缩包已经包含了运行文件。">
+<meta property="og:image" content="http://img.bbs.csdn.net/upload/201508/22/1440224249_880785.png">
+<meta property="og:updated_time" content="2015-08-22T06:20:14.723Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CoolFormat 源代码格式化工具">
-<meta name="twitter:description" content="CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。">
+<meta name="twitter:title" content="十字消除 Cocos2d-x">
+<meta name="twitter:description" content="鼠标点击链接两个或多个颜色相同方块的十字线的中心，便能成功消除方块。素材取自网上的Flash游戏，逻辑及算法自己实现，第一次写游戏，写的会比较粗糙，使用的Cocos2d-x版本为2.0.1，不同的版本可能会编译不了，需要进行一些稍微的改动，压缩包已经包含了运行文件。">
 
     
     <link rel="alternative" href="/atom.xml" title="无幻" type="application/atom+xml">
@@ -77,14 +76,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/08/18/coolformat/" title="CoolFormat 源代码格式化工具" itemprop="url">CoolFormat 源代码格式化工具</a>
+      <a href="/2015/08/22/crossgame/" title="十字消除 Cocos2d-x" itemprop="url">十字消除 Cocos2d-x</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="无幻" target="_blank" itemprop="author">无幻</a>
 		
   <p class="article-time">
-    <time datetime="2015-08-18T09:20:30.000Z" itemprop="datePublished"> 发表于 2015-08-18</time>
+    <time datetime="2015-08-22T04:40:30.000Z" itemprop="datePublished"> 发表于 2015-08-22</time>
     
   </p>
 </header>
@@ -93,27 +92,14 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用介绍"><span class="toc-number">1.</span> <span class="toc-text">使用介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用手册"><span class="toc-number">2.</span> <span class="toc-text">使用手册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#软件下载"><span class="toc-number">3.</span> <span class="toc-text">软件下载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#项目地址"><span class="toc-number">4.</span> <span class="toc-text">项目地址</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#下载地址（带源码）"><span class="toc-number">1.</span> <span class="toc-text">下载地址（带源码）</span></a></li></ol>
 		
 		</div>
 		
-		<p><img src="http://img.bbs.csdn.net/upload/201508/22/1440222873_690990.png" class="img-topic"></p>
-<p>CoolFormat源代码格式化是一款C\ C++\ C#\ CSS\ HTML\ Java\ JavaScript\ JSON\ Objective-C\ PHP\ SQL\ XML代码格式化工具。软件可以快速多种风格格式化，并对语言进行着色。界面采用Office 2010风格，并有多种样式可以替换。并且支持代码高亮到网页上显示，方便博客文章之类的撰写阅读。</p>
+		<p><img src="http://img.bbs.csdn.net/upload/201508/22/1440224249_880785.png" class="img-topic"></p>
+<p>鼠标点击链接两个或多个颜色相同方块的十字线的中心，便能成功消除方块。<br>素材取自网上的Flash游戏，逻辑及算法自己实现，第一次写游戏，写的会比较粗糙，使用的Cocos2d-x版本为2.0.1，不同的版本可能会编译不了，需要进行一些稍微的改动，压缩包已经包含了运行文件。</p>
 <a id="more"></a>
-<p><img src="http://img.my.csdn.net/uploads/201209/29/1348930578_2926.png" alt="CoolFormat"></p>
-<h3 id="使用介绍">使用介绍</h3><ol>
-<li>全新Ribbon界面，操作方便           </li>
-<li>支持全部、部分、批量格式化方式     </li>
-<li>可自定义的代码格式化风格     </li>
-<li>支持代码高亮到网页、博客</li>
-</ol>
-<h3 id="使用手册">使用手册</h3><p>请移步这里：《<a href="http://blog.csdn.net/akof1314/article/details/8029438" target="_blank" rel="external">CoolFormat源代码格式化工具使用手册</a>》</p>
-<h3 id="软件下载">软件下载</h3><ul>
-<li>下载地址一：<a href="http://www.onlinedown.net/soft/100874.htm" target="_blank" rel="external">http://www.onlinedown.net/soft/100874.htm</a>     </li>
-<li>下载地址二：<a href="http://files.cnblogs.com/wjs16/CoolFormat3.4.rar" target="_blank" rel="external">http://files.cnblogs.com/wjs16/CoolFormat3.4.rar</a>      </li>
-<li>下载地址三：<a href="http://download.csdn.net/detail/akof1314/8457593" target="_blank" rel="external">http://download.csdn.net/detail/akof1314/8457593</a></li>
-</ul>
-<h3 id="项目地址">项目地址</h3><p>GitHub：<a href="https://github.com/akof1314/CoolFormat" target="_blank" rel="external">https://github.com/akof1314/CoolFormat</a><br>BUG及建议提交：<a href="https://github.com/akof1314/CoolFormat/issues" target="_blank" rel="external">https://github.com/akof1314/CoolFormat/issues</a></p>
+<h3 id="下载地址（带源码）">下载地址（带源码）</h3><p>CSDN地址：<a href="http://download.csdn.net/detail/akof1314/4852216" target="_blank" rel="external">http://download.csdn.net/detail/akof1314/4852216</a></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -121,13 +107,13 @@
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/软件工具/">软件工具</a>
+  <a class="article-category-link" href="/categories/小小游戏/">小小游戏</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/工具/">工具</a><a href="/tags/软件/">软件</a>
+  <span></span> <a href="/tags/Cocos2d-x/">Cocos2d-x</a><a href="/tags/游戏/">游戏</a>
   </div>
 
 </div>
@@ -136,7 +122,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://akof1314.github.io/2015/08/18/coolformat/" data-title="CoolFormat 源代码格式化工具 | 无幻" data-tsina="null" class="share clearfix">
+	  <div data-url="http://akof1314.github.io/2015/08/22/crossgame/" data-title="十字消除 Cocos2d-x | 无幻" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -150,19 +136,27 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2015/08/22/wizeditormd/" title="Wiz.Editor.md 为知笔记 Markdown 插件">
+ <a href="/2015/08/22/WizUEditor/" title="Wiz.UEditor 为知笔记编辑器插件">
   <strong>上一篇：</strong><br/>
   <span>
-  Wiz.Editor.md 为知笔记 Markdown 插件</span>
+  Wiz.UEditor 为知笔记编辑器插件</span>
 </a>
 </div>
 
+
+<div class="next">
+<a href="/2015/08/22/wizeditormd/"  title="Wiz.Editor.md 为知笔记 Markdown 插件">
+ <strong>下一篇：</strong><br/> 
+ <span>Wiz.Editor.md 为知笔记 Markdown 插件
+</span>
+</a>
+</div>
 
 </nav>
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/08/18/coolformat/" data-title="CoolFormat 源代码格式化工具" data-url="http://akof1314.github.io/2015/08/18/coolformat/"></div>
+	<div class="ds-thread" data-thread-key="2015/08/22/crossgame/" data-title="十字消除 Cocos2d-x" data-url="http://akof1314.github.io/2015/08/22/crossgame/"></div>
 </section>
 
 
@@ -172,7 +166,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用介绍"><span class="toc-number">1.</span> <span class="toc-text">使用介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用手册"><span class="toc-number">2.</span> <span class="toc-text">使用手册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#软件下载"><span class="toc-number">3.</span> <span class="toc-text">软件下载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#项目地址"><span class="toc-number">4.</span> <span class="toc-text">项目地址</span></a></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#下载地址（带源码）"><span class="toc-number">1.</span> <span class="toc-text">下载地址（带源码）</span></a></li></ol>
  
   </div>
 
